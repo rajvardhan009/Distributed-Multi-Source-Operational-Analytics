@@ -1,0 +1,52 @@
+PROJECT TITLE:
+Distributed Multi-Source Operational Analytics System
+
+OBJECTIVE:
+To design and implement a complete end-to-end analytics pipeline integrating SQL Server, MySQL, and Power BI to monitor, analyze, and visualize distributed operational and inventory performance.
+
+DATA SOURCES:
+1. SQL Server – Test Environment Inventory Dataset
+2. SQL Server – Product Master Dataset
+3. MySQL – Production Environment Inventory Dataset
+
+TECHNOLOGIES USED:
+- SQL Server 2019
+- MySQL 8
+- Power BI Desktop
+- Power Query (M)
+- DAX (Data Analysis Expressions)
+
+CORE TASKS COMPLETED:
+1. Data ingestion from SQL Server and MySQL using native connectors.
+2. Data cleansing, deduplication, and schema alignment.
+3. Merging test, production and product master datasets using joins.
+4. Creating unified dimensional model for analytical reporting.
+5. Building automated refresh pipelines with Power BI.
+6. Designing operational dashboards using DAX KPIs.
+
+KEY METRICS DEVELOPED:
+- Total Stock (Test + Prod)
+- Stock Variance
+- Item Availability %
+- Category-Level Inventory Distribution
+- Environment Comparison Metrics
+- Movement/Adjustment Logs
+- Cost Deviations Across Environments
+
+DAX MEASURES:
+- Total_Stock
+- Prod_Stock
+- Test_Stock
+- Stock_Difference
+- Stock_Availability_Percent
+- Category_Contribution
+
+OUTPUT DELIVERED:
+- Multi-page Power BI report analyzing operational behavior across environments.
+- Unified data model integrating SQL Server + MySQL.
+- A complete reproducible folder structure for deployment.
+
+DOCUMENTATION INCLUDED:
+- project_summary.md  
+- requirements.txt  
+- architecture diagram (optional)  
